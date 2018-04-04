@@ -31,7 +31,7 @@ $servers = get-adcomputer -server $DOMAIN1 -searchbase $searchbase1 -filter * | 
 $failed=@()
 
 # TABLE Service START
-$html +="<HTML><BODY>
+$html ="<HTML><BODY>
 <table width='80%' align='center' border='1'>
 <tr bgcolor='#32CD32'>
 <td width='20%'>System Name</td>
